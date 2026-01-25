@@ -22,7 +22,8 @@
 // @match        https://stake1022.com*
 // @match        https://stake.us*
 // @match        https://stake.br*
-// @grant 		 none
+// @grant 		 GM_xmlhttpRequest
+// @connect      *.ngrok-free.dev
 // ==/UserScript==
 
 (function() {
@@ -128,4 +129,5 @@ if (!USER_KEY || USER_KEY === "null" || USER_KEY.trim() === "") {
     
     connect(); // Bắt đầu kết nối khi tải trang
 })();
+
 
