@@ -2,7 +2,7 @@
 // @name         Stake Auto Fill (WebSocket + Auth Key)
 // @namespace    http://tampermonkey.net
 // @version      1.4
-// @downloadURL  https://github.com/dicer1505/scriptstake/raw/refs/heads/main/codestakev3.user.js
+// @downloadURL  https://github.com/dicer1505/lttdrop/raw/refs/heads/main/codestakev3.user.js
 // @match        https://*.stake.us/*
 // @match        https://stake.com*
 // @match        https://stake.ac*
@@ -128,3 +128,4 @@ if (!USER_KEY || USER_KEY === "null" || USER_KEY.trim() === "") {
     
     connect(); // Bắt đầu kết nối khi tải trang
 })();
+
