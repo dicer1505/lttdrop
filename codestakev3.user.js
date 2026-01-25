@@ -1,27 +1,27 @@
 // ==UserScript==
-// @name         Stake Auto Fill (WebSocket + Auth Key)
+// @name         Get Code Plain Text
 // @namespace    http://tampermonkey.net
-// @version      1.4
+// @version      1.1
 // @downloadURL  https://github.com/dicer1505/lttdrop/raw/refs/heads/main/codestakev3.user.js
 // @match        https://*.stake.us/*
-// @match        https://stake.com*
-// @match        https://stake.ac*
-// @match        https://stake.games*
-// @match        https://stake.bet*
-// @match        https://stake.pet*
-// @match        https://stake.mba*
-// @match        https://stake.jp*
-// @match        https://stake.bz*
-// @match        https://stake.ceo*
-// @match        https://stake.krd*
-// @match        https://staketr.com*
-// @match        https://stake1001.com*
-// @match        https://stake1002.com*
-// @match        https://stake1003.com*
-// @match        https://stake1021.com*
-// @match        https://stake1022.com*
-// @match        https://stake.us*
-// @match        https://stake.br*
+// @match        https://stake.com/*settings/offers*
+// @match        https://stake.ac/*settings/offers*
+// @match        https://stake.games/*settings/offers*
+// @match        https://stake.bet/*settings/offers*
+// @match        https://stake.pet/*settings/offers*
+// @match        https://stake.mba/*settings/offers*
+// @match        https://stake.jp/*settings/offers*
+// @match        https://stake.bz/*settings/offers*
+// @match        https://stake.ceo/*settings/offers*
+// @match        https://stake.krd/*settings/offers*
+// @match        https://staketr.com/*settings/offers*
+// @match        https://stake1001.com/*settings/offers*
+// @match        https://stake1002.com/*settings/offers*
+// @match        https://stake1003.com/*settings/offers*
+// @match        https://stake1021.com/*settings/offers*
+// @match        https://stake1022.com/*settings/offers*
+// @match        https://stake.us/settings/offers*
+// @match        https://stake.br/settings/offers*
 // @grant 		 GM_xmlhttpRequest
 // @connect      *.ngrok-free.dev
 // ==/UserScript==
@@ -129,5 +129,3 @@ if (!USER_KEY || USER_KEY === "null" || USER_KEY.trim() === "") {
     
     connect(); // Bắt đầu kết nối khi tải trang
 })();
-
-
