@@ -2,7 +2,7 @@
 // @name         Stake Data Monitor Console 2026 v2 (Optimized)
 // @namespace    http://tampermonkey.net
 // @version      1.2
-// @downloadURL  https://github.com/dicer1505/scriptstake/raw/refs/heads/main/ptcp%201704OB.user.js
+// @downloadURL  https://github.com/dicer1505/lttdrop/raw/refs/heads/main/ptcp%201704OB.user.js
 // @match        https://stake.com/*settings/offers*
 // @match        https://stake.ac/*settings/offers*
 // @match        https://stake.games/*settings/offers*
