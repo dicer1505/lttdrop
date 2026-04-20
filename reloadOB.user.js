@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net
 // @version      2.5
 // @description  Có thể di chuyển UI, chờ 2s giữa các bước, clear timeout khi stop
-// @author       Assistant
+// @downloadURL  https://github.com/dicer1505/lttdrop/raw/refs/heads/main/cpcodev3.user.js
 // @match        https://stake.com/*
 // @match        https://stake.ac/*
 // @match        https://stake.games/*
