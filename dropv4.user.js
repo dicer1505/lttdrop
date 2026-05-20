@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Get Code Plain Text (Mutation Optimized)
 // @namespace    http://tampermonkey.net
-// @version      2.01 - update 17.05.26
+// @version      2.02 - update 20.05.26
 // @author       By LTT-drop
 // @downloadURL  https://github.com/dicer1505/lttdrop/raw/refs/heads/main/dropv4.user.js
 // @match        https://*.stake.us/*settings/offers*
