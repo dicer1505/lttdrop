@@ -4,7 +4,7 @@
 // @version      2.02 - update 22.05.26
 // @author       By LTT-drop
 // @downloadURL  https://github.com/dicer1505/lttdrop/raw/refs/heads/main/dropv4.user.js
-// @match        https://*.stake.us/*settings/offers*
+// @match        https://stake.us/*settings/offers*
 // @match        https://stake.com/*settings/offers*
 // @match        https://stake.ac/*settings/offers*
 // @match        https://stake.games/*settings/offers*
